@@ -1,5 +1,5 @@
 #!/bin/bash
-x=1
+x=0
 while read i
 do
         y=1
@@ -10,4 +10,4 @@ do
                 y=$[$y+1]
         done < mjeseci.txt
         x=$[$x+1]
-done < sandzak-gradovi.txt
+done < gradovi.txt

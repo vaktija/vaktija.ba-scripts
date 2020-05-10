@@ -3,14 +3,14 @@ Banja Luka
 Bihać
 Bijeljina
 Bileća
-Bos. Brod
-Bos. Dubica
-Bos. Gradiška
-Bos. Grahovo
-Bos. Krupa
-Bos. Novi
-Bos. Petrovac
-Bos. Šamac
+Bosanski Brod
+Bosanska Dubica
+Bosanska Gradiška
+Bosansko Grahovo
+Bosanska Krupa
+Bosanski Novi
+Bosanski Petrovac
+Bosanski Šamac
 Bratunac
 Brčko
 Breza
@@ -75,6 +75,7 @@ Prozor
 Rogatica
 Rudo
 Sanski Most
+Sarajevo
 Skender-Vakuf
 Sokolac
 Srbac
@@ -93,7 +94,7 @@ Trnovo
 Tuzla
 Ugljevik
 Vareš
-V.Kladuša
+Velika Kladuša
 Visoko
 Višegrad
 Vitez
@@ -104,4 +105,14 @@ Zvornik
 Žepa
 Žepče
 Živinice
-Sarajevo
+Bijelo Polje
+Gusinje
+Nova Varoš
+Novi Pazar
+Plav
+Pljevlja
+Priboj
+Prijepolje
+Rožaje
+Sjenica
+Tutin

@@ -1,8 +1,5 @@
 #!/bin/bash
-# usage
-# ./bih-pdf.sh 'http://192.168.0.20/print.php?location='
-#
-for i in {1..107}
+for i in {0..117}
 do
   mkdir $i
   cd $i
@@ -10,7 +7,7 @@ do
     do
       grad=$i
       mjesec=$j
-      url=$1$grad'&'month=''$mjesec''
+      url="http://localhost:8080/$grad/2020/$mjesec"
       echo $url
       wkhtmltopdf --orientation Portrait --viewport-size 1366x768 --page-size A4 $url "$grad"_"$mjesec"_2020.pdf
     done
