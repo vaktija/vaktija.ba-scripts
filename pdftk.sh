@@ -1,5 +1,7 @@
 #/bin/bash
+year="$1"
 while read i
 do
-    /snap/bin/pdftk "monthly/$i"_Januar_2020.pdf "monthly/$i"_Februar_2020.pdf "monthly/$i"_Mart_2020.pdf "monthly/$i"_April_2020.pdf "monthly/$i"_Maj_2020.pdf "monthly/$i"_Juni_2020.pdf "monthly/$i"_Juli_2020.pdf "monthly/$i"_August_2020.pdf "monthly/$i"_Septembar_2020.pdf "monthly/$i"_Oktobar_2020.pdf "monthly/$i"_Novembar_2020.pdf "monthly/$i"_Decembar_2020.pdf cat output "yearly/$i"_2020.pdf 
-done < gradovi.txt
+    #pdftk "monthly/$i"_Januar_$year.pdf "monthly/$i"_Februar_$year.pdf "monthly/$i"_Mart_$year.pdf "monthly/$i"_April_$year.pdf "monthly/$i"_Maj_$year.pdf "monthly/$i"_Juni_$year.pdf "monthly/$i"_Juli_$year.pdf "monthly/$i"_August_$year.pdf "monthly/$i"_Septembar_$year.pdf "monthly/$i"_Oktobar_$year.pdf "monthly/$i"_Novembar_$year.pdf "monthly/$i"_Decembar_$year.pdf cat output "yearly/$i"_$year.pdf 
+    gswin64c -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile="yearly/$i"_$year.pdf "monthly/$i"_Januar_$year.pdf "monthly/$i"_Februar_$year.pdf "monthly/$i"_Mart_$year.pdf "monthly/$i"_April_$year.pdf "monthly/$i"_Maj_$year.pdf "monthly/$i"_Juni_$year.pdf "monthly/$i"_Juli_$year.pdf "monthly/$i"_August_$year.pdf "monthly/$i"_Septembar_$year.pdf "monthly/$i"_Oktobar_$year.pdf "monthly/$i"_Novembar_$year.pdf "monthly/$i"_Decembar_$year.pdf
+done < gradovi2.txt

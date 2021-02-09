@@ -1,4 +1,5 @@
 #!/bin/bash
+year=$1
 x=0
 while read i
 do
@@ -6,8 +7,8 @@ do
         while read j
         do
                 echo $i $x $j $y
-                cp $x/"$x"_"$y"_2020.pdf "$i"_"$j"_2020.pdf
+                cp $x/"$x"_"$y"_$year.pdf "$i"_"$j"_$year.pdf
                 y=$[$y+1]
-        done < mjeseci.txt
+        done < mjeseci2.txt
         x=$[$x+1]
-done < gradovi.txt
+done < gradovi2.txt
