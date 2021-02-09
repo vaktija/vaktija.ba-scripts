@@ -7,8 +7,8 @@ do
         while read j
         do
                 echo $i $x $j $y
-                cp $x/"$x"_"$y"_$year.pdf "$i"_"$j"_$year.pdf
+                cp $x/"$x"_"$y"_$year.pdf monthly/"$i"_"$j"_$year.pdf
                 y=$[$y+1]
-        done < mjeseci2.txt
+        done < mjeseci.txt
         x=$[$x+1]
-done < gradovi2.txt
+done < gradovi.txt

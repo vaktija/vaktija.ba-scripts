@@ -1,6 +1,6 @@
 #!/bin/bash
 year="$1"
-for i in {0..117}
+for i in {0..3}
 do
   mkdir $i
   cd $i
