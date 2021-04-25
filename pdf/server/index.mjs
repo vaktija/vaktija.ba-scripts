@@ -1,5 +1,4 @@
 import express from "express";
-import "moment-duration-format";
 import moment from "moment-hijri";
 import "moment-timezone";
 import { mjesecna, lokacija } from "./api/vaktija/index.mjs";

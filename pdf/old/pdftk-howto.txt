@@ -1,3 +1,0 @@
-sudo apt install snapd
-sudo snap install pdftk
-/snap/bin/pdftk Sarajevo_Januar_2021.pdf Sarajevo_Februar_2021.pdf Sarajevo_Mart_2021.pdf Sarajevo_April_2021.pdf Sarajevo_Maj_2021.pdf Sarajevo_Juni_2021.pdf Sarajevo_Juli_2021.pdf Sarajevo_August_2021.pdf Sarajevo_Septembar_2021.pdf Sarajevo_Oktobar_2021.pdf Sarajevo_Novembar_2021.pdf Sarajevo_Decembar_2021.pdf cat output output.pdf

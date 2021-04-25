@@ -1,9 +1,16 @@
-npm install
+# Install
+```
+yarn install
+```
+# Run
+```
+yarn start
+```
 
-node(mon) --experimental-modules --experimental-json-modules index.mjs
+# Open
 
-pm2 start ecosystem.config.js
+http://localhost:8080
 
-Dont'forget this (DST issues)
+e.g.
 
-heroku config:add TZ="Europe/Sarajevo"
+http://localhost:8080/77/2021/04

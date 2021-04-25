@@ -5,11 +5,10 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "express-rate-limit": "^5.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "moment-hijri": "^2.1.2",
-    "moment-timezone": "^0.5.28"
+    "moment-timezone": "^0.5.33"
   },
   "type": "module",
   "scripts": {

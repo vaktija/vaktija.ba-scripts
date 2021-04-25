@@ -1,8 +1,6 @@
 import data from '../../data/vaktija.json';
-
 import "moment-duration-format";
 import moment from "moment-hijri";
-// import "moment/locale/bs";
 
 const { razlika, vaktija } = data;
 
